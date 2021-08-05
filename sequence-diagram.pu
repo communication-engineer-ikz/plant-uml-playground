@@ -15,10 +15,11 @@ database databaseTag as db
 collections "collections \n Tag" as cllct #99FF99
 queue queueTag as q
 
-prtc -> actr: prtc to actr
-prtc -> bndry: prtc to bndry
-prtc -> ctrl: prtc to ctrl
-entty -> db: entty to db
-cllct -> prtc: cllct to prtc
+prtc ->x actr: prtc to actr
+prtc ->> bndry: prtc to bndry
+prtc -\ ctrl: prtc to ctrl
+entty <--\ db: entty to db
+entty //--\\ db: entty to db2
+cllct o<-> prtc: cllct to prtc
 
 @enduml
