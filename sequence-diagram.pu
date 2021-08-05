@@ -15,10 +15,14 @@ database databaseTag as db
 collections "collections \n Tag" as cllct #99FF99
 queue queueTag as q
 
+autonumber
 prtc ->x actr: prtc to actr
+autonumber 101 10 "<b>[0000]"
 prtc ->> bndry: prtc to bndry
+autonumber resume 1 "<b>[0000]"
 prtc -\ ctrl: prtc to ctrl
 entty <--\ db: entty to db
+autonumber stop
 entty //--\\ db: entty to db2
 cllct o<-> prtc: cllct to prtc
 
