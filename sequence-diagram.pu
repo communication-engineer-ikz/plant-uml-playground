@@ -5,10 +5,10 @@ Bob --> Alice: Yes, I do.
 Alice <- Bob: Do you love me?
 Bob <-- Alice: No, I don't.
 
-participant participantTag as prtc #Red
+participant participantTag as prtc order 30 #Red 
 ' comment
-actor actorTag as actr
-boundary boundaryTag as bndry
+actor actorTag as actr order 20
+boundary boundaryTag as bndry order 10
 control controlTag as ctrl
 entity entityTag as entty
 database databaseTag as db
