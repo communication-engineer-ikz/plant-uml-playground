@@ -1,0 +1,7 @@
+@startuml sequence-diagram
+Alice -> Bob: Do you love me?
+Bob --> Alice: Yes, I do.
+
+Alice <- Bob: Do you love me?
+Bob <-- Alice: No, I don't.
+@enduml
