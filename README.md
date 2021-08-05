@@ -3,7 +3,7 @@
 https://plantuml.com/ja/
 
 ## セットアップ
-https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+https://qiita.com/couzie/items/9dedb834c5aff09ea7b2
 
 - VSCODE + PlantUML  
-    https://qiita.com/couzie/items/9dedb834c5aff09ea7b2
+    https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
