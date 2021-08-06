@@ -1,0 +1,7 @@
+@startuml use-case-diagram
+
+:First Actor:
+
+(first usecase) as (UC1)
+
+@enduml
