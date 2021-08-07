@@ -1,7 +1,12 @@
 @startuml use-case-diagram
-
-:First Actor:
+' skinparam actorStyle awesome
+:First Actor: as actor1
+:Second Actor: as actor2
 
 (first usecase) as (UC1)
+(second usecase) as (UC2)
+
+actor1 <-> UC1: horizontal
+actor2 <--> UC2: vertical
 
 @enduml
