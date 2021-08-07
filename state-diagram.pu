@@ -32,7 +32,13 @@ state StateB {
 
 [*] --> State1
 State1 --> entry1
+note on link: this is a state-transition note.
 exit1 --> StateB
+note on link: this is a state-transition note2.
 StateB --> [*]
+note on link: this is a state-transition note3.
 
+note right of State1: hogehoge
+note top of StateB: Fugafuga
+note "This is a floating note" as note
 @enduml
