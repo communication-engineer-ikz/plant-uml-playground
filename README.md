@@ -1,4 +1,4 @@
-# Plan UML Playground
+# Plant UML Playground
 ## 概要
 https://plantuml.com/ja/
 
