@@ -1,0 +1,60 @@
+@startuml activity-diagram-beta
+start
+:Hellow World;
+:This is new
+**World**.;
+
+if (Is this new World?) then (yes)
+    :Go to new World.;
+else (no)
+    :Find new World.;
+endif
+
+if (color?) is (<color:Red>red) then
+    :print red.;
+else (no)
+    :print not red.;
+endif
+
+if (color?) equals (<color:Red>red) then
+    :print red.;
+else (no)
+    :print not red.;
+endif
+
+if (color?) then (<color:Red>red)
+    :print red.;
+elseif (<color:Blue>blue) then
+    :print bule.;
+else (no)
+    :print not red.;
+endif
+
+repeat: WC ?
+    switch (color) 
+    case ( color is <color:Red>red)
+        :print red.;
+    case (<color:Blue> blue)
+        :print bule.;
+    endswitch
+backward:This is backword;
+note right
+    This is a note.
+end note
+repeat while (more color?)
+
+-[#Green]-> To final step;
+
+:final step
+====
+* This is final step.
+    Final step is this.;
+note left
+    This is a note.
+end note
+
+-[#Pink,dashed,bold]-> To Connector;
+(C)
+
+end
+@enduml
